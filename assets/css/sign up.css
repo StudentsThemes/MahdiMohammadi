@@ -1,0 +1,167 @@
+@media (max-width: 550px) {
+    .parent {
+        margin-top: 0px !important;
+    }
+
+    .privacy {
+        font-size: .9rem !important;
+    }
+
+    .privacy a {
+        font-size: .9rem !important;
+    }
+}
+
+* {
+    overflow-x: hidden;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background: linear-gradient(to top, black 0%, #1E1E1E 100%);
+    height: 100vh;
+}
+
+.spotify-logo {
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.spotify-logo img {
+    width: 117px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form-box {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 4.5rem;
+    margin-top: 40px;
+}
+
+hr {
+    width: 400px;
+    color: white;
+    opacity: .6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 45px;
+    width: 330px;
+    padding: 10px;
+    background-color: #0E0F0F;
+    outline: none;
+    border: 1px solid rgb(85, 93, 97);
+    border-radius: 3px;
+}
+
+input:focus {
+    border: 2px solid #181A1B;
+}
+
+.span-div {
+    padding: 15px 0px 6px 0px;
+}
+
+
+.button-login {
+    margin-top: 26px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: black;
+    background-color: #17AB4D;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
+
+.remember {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+    gap: 12px;
+}
+
+.remember span {
+    font-size: 1.3rem;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.signup {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.signup span {
+    font-size: 1.6rem;
+    color: #B0AA9F;
+}
+
+a {
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #17AB4D;
+    transition: .3s;
+}
+
+.privacy {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #B0AA9F;
+}
+
+.privacy a {
+    font-size: 1.2rem;
+    color: #B0AA9F;
+    padding: 0px 4px;
+    cursor: pointer;
+}

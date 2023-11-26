@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link class="title-logo" rel="icon" href="assets/images/Logo/Spotify_App_Logo.svg.png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/Java Script.js"></script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-items top-left">
+            <div class="spotify-logo flex">
+                <div><img class="spotify-logo1" src="assets/images/Logo/PngItem_2819029.png"><img class="spotify-logo2"
+                        src='assets/images/Logo/4115f0ea-7754-46b1-9b5c-d6e4f32b5653_20231108_230057_0000.png'></div>
+            </div>
+            <div>
+                <a href="index.html">
+                    <div class="flex home-white"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M21 8.77217L14.0208 1.79299C12.8492 0.621414 10.9497 0.621413 9.77817 1.79299L3 8.57116V23.0858H10V17.0858C10 15.9812 10.8954 15.0858 12 15.0858C13.1046 15.0858 14 15.9812 14 17.0858V23.0858H21V8.77217ZM11.1924 3.2072L5 9.39959V21.0858H8V17.0858C8 14.8767 9.79086 13.0858 12 13.0858C14.2091 13.0858 16 14.8767 16 17.0858V21.0858H19V9.6006L12.6066 3.2072C12.2161 2.81668 11.5829 2.81668 11.1924 3.2072Z"
+                                fill="currentColor" />
+                        </svg><span>Home</span></div>
+                </a>
+            </div>
+            <div>
+                <a href="search.html" target="_self">
+                    <div class="flex"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M18.319 14.4326C20.7628 11.2941 20.542 6.75347 17.6569 3.86829C14.5327 0.744098 9.46734 0.744098 6.34315 3.86829C3.21895 6.99249 3.21895 12.0578 6.34315 15.182C9.22833 18.0672 13.769 18.2879 16.9075 15.8442C16.921 15.8595 16.9351 15.8745 16.9497 15.8891L21.1924 20.1317C21.5829 20.5223 22.2161 20.5223 22.6066 20.1317C22.9971 19.7412 22.9971 19.1081 22.6066 18.7175L18.364 14.4749C18.3493 14.4603 18.3343 14.4462 18.319 14.4326ZM16.2426 5.28251C18.5858 7.62565 18.5858 11.4246 16.2426 13.7678C13.8995 16.1109 10.1005 16.1109 7.75736 13.7678C5.41421 11.4246 5.41421 7.62565 7.75736 5.28251C10.1005 2.93936 13.8995 2.93936 16.2426 5.28251Z"
+                                fill="currentColor" />
+                        </svg><span>Search</span></div>
+                </a>
+            </div>
+        </div>
+
+        <div class="grid-items bottom-left">
+
+            <div class="sticky">
+                <div class="first-section flex">
+                    <div class="library">
+                        <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                            class="Svg-sc-ytk21e-0 iYxpxA">
+                            <path
+                                d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z">
+                            </path>
+                        </svg>
+                        <span>Your Library</span>
+                    </div>
+
+                    <div class="first-section-buttons">
+                        <button class="flex button-al" type="button"><svg width="22" height="22" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 4C11.4477 4 11 4.44772 11 5V11H5C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13H11V19C11 19.5523 11.4477 20 12 20C12.5523 20 13 19.5523 13 19V13H19C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11H13V5C13 4.44772 12.5523 4 12 4Z"
+                                    fill="currentColor" />
+                            </svg></button>
+                    </div>
+                </div>
+
+                <div class="second-section">
+                    <div>Playlists</div>
+                    <div>Albums</div>
+                    <div>Artists</div>
+                </div>
+            </div>
+
+
+
+
+            <div class="fourth-section">
+
+                <div class="third-section">
+                    <div><button class="flex button-al" type="button"><svg width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M18.319 14.4326C20.7628 11.2941 20.542 6.75347 17.6569 3.86829C14.5327 0.744098 9.46734 0.744098 6.34315 3.86829C3.21895 6.99249 3.21895 12.0578 6.34315 15.182C9.22833 18.0672 13.769 18.2879 16.9075 15.8442C16.921 15.8595 16.9351 15.8745 16.9497 15.8891L21.1924 20.1317C21.5829 20.5223 22.2161 20.5223 22.6066 20.1317C22.9971 19.7412 22.9971 19.1081 22.6066 18.7175L18.364 14.4749C18.3493 14.4603 18.3343 14.4462 18.319 14.4326ZM16.2426 5.28251C18.5858 7.62565 18.5858 11.4246 16.2426 13.7678C13.8995 16.1109 10.1005 16.1109 7.75736 13.7678C5.41421 11.4246 5.41421 7.62565 7.75736 5.28251C10.1005 2.93936 13.8995 2.93936 16.2426 5.28251Z"
+                                    fill="currentColor" />
+                            </svg></button></div>
+                    <div class="recently flex"><span>Recently</span><svg width="30" height="30" viewBox="0 0 24 24"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 7H7V9H9V7Z" fill="currentColor" />
+                            <path d="M7 13V11H9V13H7Z" fill="currentColor" />
+                            <path d="M7 15V17H9V15H7Z" fill="currentColor" />
+                            <path d="M11 15V17H17V15H11Z" fill="currentColor" />
+                            <path d="M17 13V11H11V13H17Z" fill="currentColor" />
+                            <path d="M17 7V9H11V7H17Z" fill="currentColor" />
+                        </svg></div>
+                </div>
+
+                <div class="s4-rows">
+                    <div class="s4-img square"><img
+                            src="assets/images/Artist Profiles/artworks-y6qitUuZoS6y8LQo-5s2pPA-t500x500.jpg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Liked Songs</span></div>
+                        <div class="artist"><span>Playlist • 138 songs</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/2023-11-11 05.31.07.jpg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>DmndFaraz</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/Yas.jpg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Yas</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/dorcc.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Dorcci</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/catchy.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Catchybeatz</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/drake.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Drake</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/dalu.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Dalu</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/daniyal.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Daniyal</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/doja cat.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Doja Cat</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/hans zimmer.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Hans Zimmer</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/hiphopologist.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Hiphopologist</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/kid.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>021Kid</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/nazli.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Nazli Mcfian</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/pishro.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Pishro</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/poori.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Poori</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/putak.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Putak</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/ramin djawadi.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Ramin Djawadi</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/sadegh .jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Sadegh Vahedi</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/safir.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Safir</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/sorena.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Sorena</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="grid-items center-body body-cont">
+            <div class="center-section1 flex">
+                <div class="right-left-chev flex">
+                    <button type="button"><svg width="30" height="30" viewBox="0 0 26 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.2426 6.34317L14.8284 4.92896L7.75739 12L14.8285 19.0711L16.2427 17.6569L10.5858 12L16.2426 6.34317Z"
+                                fill="currentColor" />
+                        </svg></button>
+                    <button type="button"><svg width="30" height="30" viewBox="0 0 26 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z"
+                                fill="currentColor" />
+                        </svg></button>
+                </div>
+
+                <div class="sign-log">
+                    <a href="signup.html" target="_blank"><button class="signup" type="submit">Sign up</button></a>
+                    <a href="login.html" target="_blank"><button class="login" type="submit">Log in</button></a>
+                </div>
+            </div>
+
+            <div class="gmdiv"><span class="title-span">Good morning</span></div>
+
+            <div class="good-morning">
+                <div class="s1-center">
+                    <div class="s1-img"><img src="assets/images/Artist Profiles/hiphopologist.jpeg"></div>
+                    <div class="s1-info">
+                        <div class="artist-name2"><span>Hiphopologist</span></div>
+                    </div>
+                </div>
+                <div class="s1-center">
+                    <div class="s1-img"><img src="assets/images/Artist Profiles/putak.jpeg"></div>
+                    <div class="s1-info">
+                        <div class="artist-name2"><span>Putak</span></div>
+                    </div>
+                </div>
+                <div class="s1-center">
+                    <div class="s1-img"><img
+                            src="assets/images/Artist Profiles/artworks-y6qitUuZoS6y8LQo-5s2pPA-t500x500.jpg"></div>
+                    <div class="s1-info">
+                        <div class="artist-name2"><span>Liked Songs</span></div>
+                    </div>
+                </div>
+                <div class="s1-center">
+                    <div class="s1-img"><img src="assets/images/Artist Profiles/kid.jpeg"></div>
+                    <div class="s1-info">
+                        <div class="artist-name2"><span>021Kid</span></div>
+                    </div>
+                </div>
+                <div class="s1-center">
+                    <div class="s1-img"><img src="assets/images/Artist Profiles/doja cat.jpeg"></div>
+                    <div class="s1-info">
+                        <div class="artist-name2"><span>Doja Cat</span></div>
+                    </div>
+                </div>
+                <div class="s1-center">
+                    <div class="s1-img"><img src="assets/images/Artist Profiles/sorena.jpeg"></div>
+                    <div class="s1-info">
+                        <div class="artist-name2"><span>Sorena</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="title-show">
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="gmdiv"><span class="title-span">Made For NyxRaven</span></div>
+
+
+                <div class="content">
+                    <div class="content-1">
+                        <div class="content-img"><img src="assets/images/Music Covers/large.jpeg"></div>
+                        <div class="content-span"><span>Daily Mix 1</span></div>
+                        <div class="content-span2"><span>Eminem, NF,<br> G-Eazy and more
+                            </span></div>
+                    </div>
+                    <div class="content-1">
+                        <div class="content-img"><img src="assets/images/Music Covers/default (1).jpeg"></div>
+                        <div class="content-span"><span>Daily Mix 2</span></div>
+                        <div class="content-span2"><span>Pop Smoke, Loreen,<br> Yeat, Halsey and more
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none3">
+                        <div class="content-img"><img src="assets/images/Music Covers/img_1.png"></div>
+                        <div class="content-span"><span>Daily Mix 3</span></div>
+                        <div class="content-span2"><span>Ariana Grande, Adele,<br> 6ix9ine and more
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none4">
+                        <div class="content-img"><img src="assets/images/Music Covers/default (2).jpeg"></div>
+                        <div class="content-span"><span>Daily Mix 4</span></div>
+                        <div class="content-span2"><span>Bruno Mars, 21Savage,<br> SZA, J. Cole and more
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none">
+                        <div class="content-img"><img src="assets/images/Music Covers/default (3).jpeg"></div>
+                        <div class="content-span"><span>Daily Mix 5</span></div>
+                        <div class="content-span2"><span>One Direction,<br> Imagine Dragons, and more
+                            </span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="title-show">
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="gmdiv"><span class="title-span">More like Hiphopologist</span></div>
+
+
+                <div class="content">
+                    <div class="content-1 circle">
+                        <div class="content-img leito"><img src="assets/images/Artist Profiles/leito.jpeg"></div>
+                        <div class="content-span"><span>Behzad Leito</span></div>
+                        <div class="content-span2"><span>Artist
+                            </span></div>
+                    </div>
+                    <div class="content-1">
+                        <div class="content-img"><img src="assets/images/Music Covers/pesare maryam.jpeg"></div>
+                        <div class="content-span"><span>Pesare Maryam</span></div>
+                        <div class="content-span2"><span>Sepehr Khalse
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none3">
+                        <div class="content-img"><img src="assets/images/Music Covers/amade bash.jpeg"></div>
+                        <div class="content-span"><span>Amade bash</span></div>
+                        <div class="content-span2"><span>Shayea
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none4 circle">
+                        <div class="content-img"><img src="assets/images/Artist Profiles/samilow.jpeg"></div>
+                        <div class="content-span"><span>Sami Low</span></div>
+                        <div class="content-span2"><span>Artist
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none circle">
+                        <div class="content-img"><img src="assets/images/Artist Profiles/hiphopologist.jpeg"></div>
+                        <div class="content-span"><span>Hiphopologist</span></div>
+                        <div class="content-span2"><span>Artist
+                            </span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="title-show">
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="gmdiv"><span class="title-span">Recently Played</span></div>
+
+
+                <div class="content">
+                    <div class="content-1">
+                        <div class="content-img circle"><img src="assets/images/Artist Profiles/dalu.jpeg"></div>
+                        <div class="content-span"><span>Dalu</span></div>
+                        <div class="content-span2"><span>Artist
+                            </span></div>
+                    </div>
+                    <div class="content-1">
+                        <div class="content-img circle"><img src="assets/images/Artist Profiles/young sudden.jpeg">
+                        </div>
+                        <div class="content-span"><span>Young Sudden</span></div>
+                        <div class="content-span2"><span>Artist
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none3">
+                        <div class="content-img"><img
+                                src="assets/images/Music Covers/ab67616d0000b2731bbd9fd7b08a6589252a3429.jpeg"></div>
+                        <div class="content-span"><span>Cardi</span></div>
+                        <div class="content-span2"><span>Hiphopologist
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none4">
+                        <div class="content-img"><img src="assets/images/Music Covers/parvaz.jpeg"></div>
+                        <div class="content-span"><span>Parvaz Album</span></div>
+                        <div class="content-span2"><span>Reza Pishro
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none">
+                        <div class="content-img circle"><img src="assets/images/Artist Profiles/sadegh .jpeg"></div>
+                        <div class="content-span"><span>Sadegh</span></div>
+                        <div class="content-span2"><span>Artist
+                            </span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="title-show">
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="gmdiv"><span class="title-span">Your favorite artists</span></div>
+
+
+                <div class="content">
+                    <div class="content-1">
+                        <div class="content-img circle"><img src="assets/images/Artist Profiles/hiphopologist.jpeg">
+                        </div>
+                        <div class="content-span"><span>Hiphopologist</span></div>
+                        <div class="content-span2"><span>Artist
+                            </span></div>
+                    </div>
+                    <div class="content-1">
+                        <div class="content-img circle"><img src="assets/images/Artist Profiles/nazli.jpeg"></div>
+                        <div class="content-span"><span>Nazli Mcfian</span></div>
+                        <div class="content-span2"><span>Artist
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none3">
+                        <div class="content-img circle"><img src="assets/images/Artist Profiles/pishro.jpeg"></div>
+                        <div class="content-span"><span>Reza Pishro</span></div>
+                        <div class="content-span2"><span>Artist
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none4">
+                        <div class="content-img circle"><img src="assets/images/Artist Profiles/daniyal.jpeg"></div>
+                        <div class="content-span"><span>Daniyal</span></div>
+                        <div class="content-span2"><span>Artist
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none">
+                        <div class="content-img circle"><img src="assets/images/Artist Profiles/ramin djawadi.jpeg">
+                        </div>
+                        <div class="content-span"><span>Ramin Djawadi</span></div>
+                        <div class="content-span2"><span>Artist
+                            </span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="title-show">
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="gmdiv"><span class="title-span">Recommended for today</span></div>
+
+
+                <div class="content">
+                    <div class="content-1">
+                        <div class="content-img"><img src="assets/images/Music Covers/mashallah.jpeg"></div>
+                        <div class="content-span"><span>Mashallah</span></div>
+                        <div class="content-span2"><span>Chvrsi, Hiphopologist, Ashkan Kagan
+                            </span></div>
+                    </div>
+                    <div class="content-1">
+                        <div class="content-img"><img src="assets/images/Music Covers/oos karim.jpeg"></div>
+                        <div class="content-span"><span>Oos Karim</span></div>
+                        <div class="content-span2"><span>Daniyal
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none3">
+                        <div class="content-img"><img
+                                src="assets/images/Music Covers/artworks-1SBwWgRxJJEkLYqY-sk5Myg-t500x500.jpg"></div>
+                        <div class="content-span"><span>Don't</span></div>
+                        <div class="content-span2"><span>Dorcci, Ashkan Kagan
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none4">
+                        <div class="content-img"><img src="assets/images/Music Covers/batel shod.jpeg"></div>
+                        <div class="content-span"><span>Batel Shod</span></div>
+                        <div class="content-span2"><span>Reza Pishro
+                            </span></div>
+                    </div>
+                    <div class="content-1 OD-none">
+                        <div class="content-img"><img src="assets/images/Music Covers/2ja.jpeg"></div>
+                        <div class="content-span"><span>2Ja</span></div>
+                        <div class="content-span2"><span>Ho3ein, Bi Bal
+                            </span></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="grid-items right-body flex">
+            <div class="rb-scroll">
+                <div class="rb-Fsection flex"><span><a>Faze Sekte</a></span><button id="hide" class="flex button-al"
+                        type="button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 4C11.4477 4 11 4.44772 11 5V11H5C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13H11V19C11 19.5523 11.4477 20 12 20C12.5523 20 13 19.5523 13 19V13H19C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11H13V5C13 4.44772 12.5523 4 12 4Z"
+                                fill="currentColor" />
+                        </svg></button></div>
+
+                <div class="rb-img"><img src="assets/images/Music Covers/faze sekte.jpeg"></div>
+
+                <div class="rb-music-txt">
+                    <div><span><a>Faze Sekte</a></span>
+                        <p><a>Catchybeatz</a>, <a>Soalk</a>, <a>ILLNOIZ</a>, <a>021Kid</a></p>
+                    </div>
+                    <div><svg width="19" height="19" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.0122 5.57169L10.9252 4.48469C8.77734 2.33681 5.29493 2.33681 3.14705 4.48469C0.999162 6.63258 0.999162 10.115 3.14705 12.2629L11.9859 21.1017L11.9877 21.0999L12.014 21.1262L20.8528 12.2874C23.0007 10.1395 23.0007 6.65711 20.8528 4.50923C18.705 2.36134 15.2226 2.36134 13.0747 4.50923L12.0122 5.57169ZM11.9877 18.2715L16.9239 13.3352L18.3747 11.9342L18.3762 11.9356L19.4386 10.8732C20.8055 9.50635 20.8055 7.29028 19.4386 5.92344C18.0718 4.55661 15.8557 4.55661 14.4889 5.92344L12.0133 8.39904L12.006 8.3918L12.005 8.39287L9.51101 5.89891C8.14417 4.53207 5.92809 4.53207 4.56126 5.89891C3.19442 7.26574 3.19442 9.48182 4.56126 10.8487L7.10068 13.3881L7.10248 13.3863L11.9877 18.2715Z"
+                                fill="currentColor" />
+                        </svg><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+                            class="bi bi-three-dots" viewBox="0 0 16 16">
+                            <path
+                                d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                        </svg></div>
+                </div>
+
+                <div class="rb-artist-detail">
+                    <div class="rb-detail-img"><img src="assets/images/Artist Profiles/catchybeatz vip2.jpeg"></div>
+                    <div class="rb-name"><span><a>Catchybeatz</a></span></div>
+                    <div class="rb-listeners"><span>118,905 monthly listeners</span><button
+                            type="submit">Unfollow</button></div>
+                    <div class="rb-about"><span>Producer / Artist / Singer / Songwriter</span></div>
+                </div>
+
+                <div class="rb-queue">
+                    <div class="rb-queue-fdiv flex">
+                        <span>Next in queue</span>
+                        <span><a>Open queue</a></span>
+                    </div>
+
+                    <div class="rb-qmusic">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-music-note" viewBox="0 0 16 16">
+                            <path d="M9 13c0 1.105-1.12 2-2.5 2S4 14.105 4 13s1.12-2 2.5-2 2.5.895 2.5 2z" />
+                            <path fill-rule="evenodd" d="M9 3v10H8V3h1z" />
+                            <path d="M8 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 13 2.22V4L8 5V2.82z" />
+                        </svg>
+                        <img src="assets/images/Music Covers/faze sekte.jpeg">
+                        <div class="rb-queue-name"><span class="huh"><a>Huh</a></span><span
+                                class="csi"><a>Catchybeatz</a>, <a>Soalk</a>, <a>ILLNOIZ</a></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+
+</html>
+

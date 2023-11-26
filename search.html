@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link class="title-logo" rel="icon" href="assets/images/Logo/Spotify_App_Logo.svg.png">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/search.css">
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-items top-left">
+            <div class="spotify-logo flex">
+                <div><img class="spotify-logo1" src="assets/images/Logo/PngItem_2819029.png"><img class="spotify-logo2"
+                        src='assets/images/Logo/4115f0ea-7754-46b1-9b5c-d6e4f32b5653_20231108_230057_0000.png'></div>
+            </div>
+            <div>
+                <a href="index.html" target="_self">
+                    <div class="flex home-white"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M21 8.77217L14.0208 1.79299C12.8492 0.621414 10.9497 0.621413 9.77817 1.79299L3 8.57116V23.0858H10V17.0858C10 15.9812 10.8954 15.0858 12 15.0858C13.1046 15.0858 14 15.9812 14 17.0858V23.0858H21V8.77217ZM11.1924 3.2072L5 9.39959V21.0858H8V17.0858C8 14.8767 9.79086 13.0858 12 13.0858C14.2091 13.0858 16 14.8767 16 17.0858V21.0858H19V9.6006L12.6066 3.2072C12.2161 2.81668 11.5829 2.81668 11.1924 3.2072Z"
+                                fill="currentColor" />
+                        </svg><span>Home</span></div>
+                </a>
+            </div>
+            <div>
+                <a href="search.html">
+                    <div class="flex search-white"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M18.319 14.4326C20.7628 11.2941 20.542 6.75347 17.6569 3.86829C14.5327 0.744098 9.46734 0.744098 6.34315 3.86829C3.21895 6.99249 3.21895 12.0578 6.34315 15.182C9.22833 18.0672 13.769 18.2879 16.9075 15.8442C16.921 15.8595 16.9351 15.8745 16.9497 15.8891L21.1924 20.1317C21.5829 20.5223 22.2161 20.5223 22.6066 20.1317C22.9971 19.7412 22.9971 19.1081 22.6066 18.7175L18.364 14.4749C18.3493 14.4603 18.3343 14.4462 18.319 14.4326ZM16.2426 5.28251C18.5858 7.62565 18.5858 11.4246 16.2426 13.7678C13.8995 16.1109 10.1005 16.1109 7.75736 13.7678C5.41421 11.4246 5.41421 7.62565 7.75736 5.28251C10.1005 2.93936 13.8995 2.93936 16.2426 5.28251Z"
+                                fill="currentColor" />
+                        </svg><span>Search</span></div>
+                </a>
+            </div>
+        </div>
+
+        <div class="grid-items bottom-left">
+
+            <div class="sticky">
+                <div class="first-section flex">
+                    <div class="library">
+                        <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                            class="Svg-sc-ytk21e-0 iYxpxA">
+                            <path
+                                d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z">
+                            </path>
+                        </svg>
+                        <span>Your Library</span>
+                    </div>
+
+                    <div class="first-section-buttons">
+                        <button class="flex button-al" type="button"><svg width="22" height="22" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 4C11.4477 4 11 4.44772 11 5V11H5C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13H11V19C11 19.5523 11.4477 20 12 20C12.5523 20 13 19.5523 13 19V13H19C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11H13V5C13 4.44772 12.5523 4 12 4Z"
+                                    fill="currentColor" />
+                            </svg></button>
+                    </div>
+                </div>
+
+                <div class="second-section">
+                    <div>Playlists</div>
+                    <div>Albums</div>
+                    <div>Artists</div>
+                </div>
+            </div>
+
+
+
+
+            <div class="fourth-section">
+
+                <div class="third-section">
+                    <div><button class="flex button-al" type="button"><svg width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M18.319 14.4326C20.7628 11.2941 20.542 6.75347 17.6569 3.86829C14.5327 0.744098 9.46734 0.744098 6.34315 3.86829C3.21895 6.99249 3.21895 12.0578 6.34315 15.182C9.22833 18.0672 13.769 18.2879 16.9075 15.8442C16.921 15.8595 16.9351 15.8745 16.9497 15.8891L21.1924 20.1317C21.5829 20.5223 22.2161 20.5223 22.6066 20.1317C22.9971 19.7412 22.9971 19.1081 22.6066 18.7175L18.364 14.4749C18.3493 14.4603 18.3343 14.4462 18.319 14.4326ZM16.2426 5.28251C18.5858 7.62565 18.5858 11.4246 16.2426 13.7678C13.8995 16.1109 10.1005 16.1109 7.75736 13.7678C5.41421 11.4246 5.41421 7.62565 7.75736 5.28251C10.1005 2.93936 13.8995 2.93936 16.2426 5.28251Z"
+                                    fill="currentColor" />
+                            </svg></button></div>
+                    <div class="recently flex"><span>Recently</span><svg width="30" height="30" viewBox="0 0 24 24"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 7H7V9H9V7Z" fill="currentColor" />
+                            <path d="M7 13V11H9V13H7Z" fill="currentColor" />
+                            <path d="M7 15V17H9V15H7Z" fill="currentColor" />
+                            <path d="M11 15V17H17V15H11Z" fill="currentColor" />
+                            <path d="M17 13V11H11V13H17Z" fill="currentColor" />
+                            <path d="M17 7V9H11V7H17Z" fill="currentColor" />
+                        </svg></div>
+                </div>
+
+                <div class="s4-rows">
+                    <div class="s4-img square"><img
+                            src="assets/images/Artist Profiles/artworks-y6qitUuZoS6y8LQo-5s2pPA-t500x500.jpg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Liked Songs</span></div>
+                        <div class="artist"><span>Playlist • 138 songs</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/2023-11-11 05.31.07.jpg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>DmndFaraz</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/Yas.jpg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Yas</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/dorcc.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Dorcci</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/catchy.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Catchybeatz</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/drake.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Drake</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/dalu.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Dalu</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/daniyal.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Daniyal</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/doja cat.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Doja Cat</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/hans zimmer.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Hans Zimmer</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/hiphopologist.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Hiphopologist</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/kid.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>021Kid</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/nazli.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Nazli Mcfian</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/pishro.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Pishro</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/poori.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Poori</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/putak.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Putak</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/ramin djawadi.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Ramin Djawadi</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/sadegh .jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Sadegh Vahedi</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/safir.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Safir</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+                <div class="s4-rows">
+                    <div class="s4-img"><img src="assets/images/Artist Profiles/sorena.jpeg"></div>
+                    <div class="s4-info">
+                        <div class="artist-name"><span>Sorena</span></div>
+                        <div class="artist"><span>Artist</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="grid-items center-body body-cont">
+            <div class="center-search-bar flex">
+                <div class="center-left-search flex">
+                    <div class="right-left-chev flex">
+                        <button type="button"><svg width="30" height="30" viewBox="0 0 26 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.2426 6.34317L14.8284 4.92896L7.75739 12L14.8285 19.0711L16.2427 17.6569L10.5858 12L16.2426 6.34317Z"
+                                    fill="currentColor" />
+                            </svg></button>
+                        <button type="button"><svg width="30" height="30" viewBox="0 0 26 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.5858 6.34317L12 4.92896L19.0711 12L12 19.0711L10.5858 17.6569L16.2427 12L10.5858 6.34317Z"
+                                    fill="currentColor" />
+                            </svg></button>
+                    </div>
+                    <div class="search-bar flex">
+
+                        <div><form>
+                            <div class="flex search-logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M18.319 14.4326C20.7628 11.2941 20.542 6.75347 17.6569 3.86829C14.5327 0.744098 9.46734 0.744098 6.34315 3.86829C3.21895 6.99249 3.21895 12.0578 6.34315 15.182C9.22833 18.0672 13.769 18.2879 16.9075 15.8442C16.921 15.8595 16.9351 15.8745 16.9497 15.8891L21.1924 20.1317C21.5829 20.5223 22.2161 20.5223 22.6066 20.1317C22.9971 19.7412 22.9971 19.1081 22.6066 18.7175L18.364 14.4749C18.3493 14.4603 18.3343 14.4462 18.319 14.4326ZM16.2426 5.28251C18.5858 7.62565 18.5858 11.4246 16.2426 13.7678C13.8995 16.1109 10.1005 16.1109 7.75736 13.7678C5.41421 11.4246 5.41421 7.62565 7.75736 5.28251C10.1005 2.93936 13.8995 2.93936 16.2426 5.28251Z"
+                                    fill="currentColor" />
+                            </svg></div>
+                            <input type="text" placeholder="What do you want to listen to?" name="search">
+                          </form></div>
+                    </div>
+                </div>
+
+                <div class="SB-icons">
+                    <div class="bell flex"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor"
+                            class="bi bi-bell" viewBox="0 0 16 16">
+                            <path
+                                d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+                        </svg></div>
+                        <div class="profile"><img src="assets/images/Artist Profiles/nyxraven.jpeg"></div>
+                </div>
+            </div>
+
+            <div class="gmdiv"><span class="title-span">Recent searches</span></div>
+
+            <div class="content">
+                <div class="content-1">
+                    <div class="content-img"><img src="assets/images/Artist Profiles/NF.jpeg"></div>
+                    <div class="content-span"><span>NF</span></div>
+                    <div class="content-span2"><span>Artist
+                        </span></div>
+                </div>
+                <div class="content-1">
+                    <div class="content-img"><img src="assets/images/Artist Profiles/adele.jpeg"></div>
+                    <div class="content-span"><span>Adele</span></div>
+                    <div class="content-span2"><span>Artist
+                        </span></div>
+                </div>
+                <div class="content-1 OD-none3">
+                    <div class="content-img"><img src="assets/images/Artist Profiles/lil peep.jpeg"></div>
+                    <div class="content-span"><span>Lil Peep</span></div>
+                    <div class="content-span2"><span>Artist
+                        </span></div>
+                </div>
+                <div class="content-1 OD-none4">
+                    <div class="content-img"><img src="assets/images/Artist Profiles/pop smoke.jpeg"></div>
+                    <div class="content-span"><span>Pop Smoke</span></div>
+                    <div class="content-span2"><span>Artist
+                        </span></div>
+                </div>
+                <div class="content-1 OD-none">
+                    <div class="content-img"><img src="assets/images/Artist Profiles/021g.jpeg"></div>
+                    <div class="content-span"><span>021G</span></div>
+                    <div class="content-span2"><span>Artist
+                        </span></div>
+                </div>
+            </div>
+
+            <div class="gmdiv"><span class="title-span">Brows all</span></div>
+
+            <div class="browse-items">
+                <div class="img-box" style="background-color: #006350;"><span>Prodcasts</span><img src="assets/images/Search images/1.jpeg"></div>
+                <div class="img-box" style="background-color: #8400E7;"><span>Live Events</span><img src="assets/images/Search images/2.jpeg"></div>
+                <div class="img-box" style="background-color: #E8105B;"><span>New Releases</span><img src="assets/images/Search images/3.jpeg"></div>
+                <div class="img-box" style="background-color: #148A06;"><span>Pop</span><img src="assets/images/Search images/4.jpeg"></div>
+                <div class="img-box" style="background-color: #4F3750;"><span>Hip-Hop</span><img src="assets/images/Search images/5.jpeg"></div>
+                <div class="img-box" style="background-color: #E0128B;"><span>Mood</span><img src="assets/images/Search images/6.jpeg"></div>
+                <div class="img-box" style="background-color: #B02797;"><span>Trending</span><img src="assets/images/Search images/7.jpeg"></div>
+                <div class="img-box" style="background-color: #8C67AB;"><span>Charts</span><img src="assets/images/Search images/8.jpeg"></div>
+                <div class="img-box" style="background-color: #D74000;"><span>Dance/Electronic</span><img src="assets/images/Search images/9.jpeg"></div>
+                <div class="img-box" style="background-color: #E91528;"><span>Rock</span><img src="assets/images/Search images/10.jpeg"></div>
+
+                <!-- 10 -->
+
+                <div class="img-box" style="background-color: #E91528;"><span>Indie</span><img src="assets/images/Search images/11.jpeg"></div>
+                <div class="img-box" style="background-color: #777777;"><span>Workout</span><img src="assets/images/Search images/12.jpeg"></div>
+                <div class="img-box" style="background-color: #D74000;"><span>Country</span><img src="assets/images/Search images/13.jpeg"></div>
+                <div class="img-box" style="background-color: #BA5D08;"><span>R&B</span><img src="assets/images/Search images/14.jpeg"></div>
+                <div class="img-box" style="background-color: #148A06;"><span>K-pop</span><img src="assets/images/Search images/15.jpeg"></div>
+                <div class="img-box" style="background-color: #D74000;"><span>Chill</span><img src="assets/images/Search images/16.jpeg"></div>
+                <div class="img-box" style="background-color: #1E3164;"><span>Sleep</span><img src="assets/images/Search images/17.jpeg"></div>
+                <div class="img-box" style="background-color: #527AA1;"><span>Party</span><img src="assets/images/Search images/18.jpeg"></div>
+                <div class="img-box" style="background-color: #5179A1;"><span>At Home</span><img src="assets/images/Search images/19.jpeg"></div>
+                <div class="img-box" style="background-color: #056852;"><span>EQUAL</span><img src="assets/images/Search images/20.jpeg"></div>
+
+                <!-- 20 -->
+
+                <div class="img-box" style="background-color: #BA5D08;"><span>Decades</span><img src="assets/images/Search images/21.jpeg"></div>
+                <div class="img-box" style="background-color: #E51D32;"><span>Love</span><img src="assets/images/Search images/22.jpeg"></div>
+                <div class="img-box" style="background-color: #E91528;"><span>Metal</span><img src="assets/images/Search images/23.jpeg"></div>
+                <div class="img-box" style="background-color: #777777;"><span>Jazz</span><img src="assets/images/Search images/24.jpeg"></div>
+                <div class="img-box" style="background-color: #E31E63;"><span>Anime</span><img src="assets/images/Search images/25.jpeg"></div>
+                <div class="img-box" style="background-color: #E0128B;"><span>Latin</span><img src="assets/images/Search images/26.jpeg"></div>
+                <div class="img-box" style="background-color: #7D4A32;"><span>Classical</span><img src="assets/images/Search images/27.jpeg"></div>
+                <div class="img-box" style="background-color: #BC5900;"><span>Folk & Acoustic</span><img src="assets/images/Search images/28.jpeg"></div>
+                <div class="img-box" style="background-color: #4F3750;"><span>Focus</span><img src="assets/images/Search images/29.jpeg"></div>
+                <div class="img-box" style="background-color: #DC148B;"><span>Soul</span><img src="assets/images/Search images/30.jpeg"></div>
+
+                <!-- 30 -->
+
+                <div class="img-box" style="background-color: #8C67AB;"><span>Kid & Family</span><img src="assets/images/Search images/31.jpeg"></div>
+                <div class="img-box" style="background-color: #E8105B;"><span>Gaming</span><img src="assets/images/Search images/32.jpeg"></div>
+                <div class="img-box" style="background-color: #AF2796;"><span>TV & Movies</span><img src="assets/images/Search images/33.jpeg"></div>
+                <div class="img-box" style="background-color: #527AA1;"><span>Instrumental</span><img src="assets/images/Search images/34.jpeg"></div>
+                <div class="img-box" style="background-color: #1E3164;"><span>Punk</span><img src="assets/images/Search images/35.jpeg"></div>
+                <div class="img-box" style="background-color: #477D94;"><span>Ambient</span><img src="assets/images/Search images/36.jpeg"></div>
+                <div class="img-box" style="background-color: #B06238;"><span>Blues</span><img src="assets/images/Search images/37.jpeg"></div>
+                <div class="img-box" style="background-color: #BA5D08;"><span>Cooking & Dining</span><img src="assets/images/Search images/38.jpeg"></div>
+                <div class="img-box" style="background-color: #E13300;"><span>Alternative</span><img src="assets/images/Search images/39.jpeg"></div>
+                <div class="img-box" style="background-color: #0D72ED;"><span>Travel</span><img src="assets/images/Search images/40.jpeg"></div>
+
+                <!-- 40 -->
+
+                <div class="img-box" style="background-color: #0F73EC;"><span>Caribbean</span><img src="assets/images/Search images/41.jpeg"></div>
+                <div class="img-box" style="background-color: #A46752;"><span>Wellness</span><img src="assets/images/Search images/42.jpeg"></div>
+                <div class="img-box" style="background-color: #D74000;"><span>Afro</span><img src="assets/images/Search images/43.jpeg"></div>
+                <div class="img-box" style="background-color: #8B1A32;"><span>Song Writers</span><img src="assets/images/Search images/44.jpeg"></div>
+                <div class="img-box" style="background-color: #E51D32;"><span>Funk & Disco</span><img src="assets/images/Search images/45.jpeg"></div>
+                <div class="img-box" style="background-color: #477D94;"><span>Nature & Noise</span><img src="assets/images/Search images/46.jpeg"></div>
+                <div class="img-box" style="background-color: #148A06;"><span>League of Legends</span><img src="assets/images/Search images/47.jpeg"></div>
+                <div class="img-box" style="background-color: #777777;"><span>Spotify Singles</span><img src="assets/images/Search images/48.jpeg"></div>
+                <div class="img-box" style="background-color: #26856A;"><span>Summer</span><img src="assets/images/Search images/49.jpeg"></div>
+                <div class="img-box" style="background-color: #DC148B;"><span>Hindi</span><img src="assets/images/Search images/50.jpeg"></div>
+
+
+                <!-- 50 -->
+
+                <div class="img-box" style="background-color: #E91528;"><span>Flamenco</span><img src="assets/images/Search images/51.jpeg"></div>
+                <div class="img-box" style="background-color: #4F3750;"><span>Karaoke</span><img src="assets/images/Search images/52.jpeg"></div>
+                <div class="img-box" style="background-color: #0F73EC;"><span>Music Festivals</span><img src="assets/images/Search images/53.jpeg"></div>
+                <div class="img-box" style="background-color: #EB1D31;"><span>Netflix</span><img src="assets/images/Search images/54.jpeg"></div>
+                <div class="img-box" style="background-color: #006350;"><span>Reggae</span><img src="assets/images/Search images/55.jpeg"></div>
+                <div class="img-box" style="background-color: #448170;"><span>Salsa</span><img src="assets/images/Search images/56.jpeg"></div>
+                <div class="img-box" style="background-color: #006350;"><span>Samba & Pagode</span><img src="assets/images/Search images/57.jpeg"></div>
+                <div class="img-box" style="background-color: #A46752;"><span>RADAR</span><img src="assets/images/Search images/58.jpeg"></div>
+                <div class="img-box" style="background-color: #FF0090;"><span>Fresh Finds</span><img src="assets/images/Search images/59.jpeg"></div>
+                <div class="img-box" style="background-color: #E8105B;"><span>Tastemakers</span><img src="assets/images/Search images/60.png"></div>
+
+        </div>
+            
+
+
+
+        </div>
+
+    </div>
+</body>
+
+</html>
+
